@@ -1,4 +1,5 @@
 import Navigation from './components/Navigation'
+import Person from "./components/Person.tsx";
 
 function App() {
 
@@ -9,6 +10,7 @@ function App() {
             </div>
             <div className="container mx-auto px-8">
                 <Navigation />
+                <Person />
             </div>
         </div>
   )
