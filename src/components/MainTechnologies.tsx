@@ -34,7 +34,7 @@ export default function MainTechnologies() {
     const store = useSelector((state: RootState) => state.languageSlice);
     return (
         <div className="pb-20">
-            <h2 className="my-20 text-center text-4xl">
+            <h2 className="mt-20 mb-10 text-center text-4xl">
                 {store.isRussian ? 'Мои основные технологии' : 'Main Technologies'}
             </h2>
             <motion.div
@@ -53,22 +53,18 @@ export default function MainTechnologies() {
                         {icon.component}
                     </motion.div>
                 ))}
-
-                <div className="flex flex-wrap items-center justify-center w-full lg:w-1/2 lg:p-8">
-                    <motion.img
-                        whileInView={{opacity: 1, x: 0}}
-                        initial={{opacity: 0, x: -100}}
-                        transition={{duration: 0.6}}
-                        src={skills}
-                        className="rounded-2xl"
-                        alt="skills"
-                    />
-                </div>
             </motion.div>
 
-
+            <div className="flex justify-center mt-10">
+                <motion.img
+                    whileInView={{opacity: 1, x: 0}}
+                    initial={{opacity: 0, x: -100}}
+                    transition={{duration: 0.6}}
+                    src={skills}
+                    className="rounded-2xl"
+                    alt="skills"
+                />
+            </div>
         </div>
-
-
     );
 }
