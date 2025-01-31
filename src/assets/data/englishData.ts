@@ -29,7 +29,7 @@ export const englishData = {
             year: 'January 2023 - August 2024',
             role: 'Junior Frontend Developer',
             company: 'UBTec',
-            description: `Developed a task tracking system designed to facilitate user interaction and project management.`,
+            description: `Developing a task tracking system to organize user interaction and project management.`,
             technologies: [
                 'JavaScript',
                 'TypeScript',
