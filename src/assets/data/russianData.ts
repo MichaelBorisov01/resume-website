@@ -1,5 +1,5 @@
 export const russianData = {
-    experience: 'Опыт > 2-х лет',
+    experience: 'Опыт > 2.5 года',
     personalInformation: `Я Frontend-разработчик со средним техническим образованием и в настоящее время получаю высшее. Буду рад возможности обсудить, как могу внести вклад в вашу команду и в развитие бизнеса!`,
     contacts: {
         address: 'Россия, Батайск',
@@ -22,11 +22,12 @@ export const russianData = {
                 'JavaScript',
                 'Vue 3',
                 'GitLab',
-                'Figma'
+                'Figma',
+                'YouTrack'
             ],
         },
         {
-            year: 'Январь 2023 - Август 2024',
+            year: 'Октябрь 2022 - Август 2024',
             role: 'Junior Frontend разработчик',
             company: 'UBTec',
             description: `Разработка системы отслеживания задач для организации взаимодействия с пользователями и управления проектами.`,

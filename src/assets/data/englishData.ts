@@ -1,5 +1,5 @@
 export const englishData = {
-    experience: 'Experience > 2 years',
+    experience: 'Experience > 2.5 years',
     personalInformation: `I\`m a Frontend developer with a secondary technical education and currently pursuing higher education. I would be happy to discuss how I can contribute to your team and business development!`,
     contacts: {
         address: 'Russia, Bataysk',
@@ -22,11 +22,12 @@ export const englishData = {
                 'JavaScript',
                 'Vue 3',
                 'GitLab',
-                'Figma'
+                'Figma',
+                'YouTrack'
             ],
         },
         {
-            year: 'January 2023 - August 2024',
+            year: 'October 2022 - August 2024',
             role: 'Junior Frontend Developer',
             company: 'UBTec',
             description: `Developing a task tracking system to organize user interaction and project management.`,
