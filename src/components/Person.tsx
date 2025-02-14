@@ -1,5 +1,6 @@
 import { useSelector } from 'react-redux'
-import programming_cat from '../assets/programming_cat.gif'
+import programming_catWebm from '../assets/programming_cat.webm'
+import programming_catMp4 from '../assets/programming_cat.mp4'
 
 import { motion } from 'framer-motion'
 import { RootState } from '../store/store'
@@ -46,14 +47,19 @@ export default function Person() {
                     </div>
                 </div>
                 <div className="flex justify-center w-full lg:w-1/2 lg:p-8">
-                    <motion.img
+
+                    <video autoPlay loop muted playsInline>
+                        <source src={programming_catWebm} type="video/webm"/>
+                        <source src={programming_catMp4} type="video/mp4"/>
+                    </video>
+                    {/*<motion.img
                         whileInView={{opacity: 1, x: 0}}
                         initial={{opacity: 0, x: -100}}
                         transition={{duration: 0.6}}
                         src={programming_cat}
                         className="rounded-2xl"
                         alt="programming_cat"
-                    />
+                    />*/}
                 </div>
             </div>
         </div>
