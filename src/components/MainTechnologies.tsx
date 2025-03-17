@@ -1,4 +1,4 @@
-import { RiGithubFill, RiGitlabFill, RiReactjsFill, RiVuejsLine } from 'react-icons/ri';
+import { RiGithubFill, RiGitlabFill, RiVuejsLine } from 'react-icons/ri';
 import { BiLogoGraphql, BiLogoNodejs, BiLogoTypescript } from 'react-icons/bi';
 import { Variants, motion } from 'framer-motion';
 import { useSelector } from 'react-redux';
@@ -9,7 +9,6 @@ const icons = [
     { component: <BiLogoNodejs className="text-7xl text-green-500" />, delay: 1 },
     { component: <BiLogoTypescript className="text-7xl text-blue-500" />, delay: 1.2 },
     { component: <RiVuejsLine className="text-7xl text-green-500" />, delay: 1.5 },
-    { component: <RiReactjsFill className="text-7xl text-cyan-500" />, delay: 1.6 },
     { component: <RiGitlabFill className="text-7xl text-orange-500" />, delay: 1.2 },
     { component: <RiGithubFill className="text-7xl text-white" />, delay: 1 },
     { component: <BiLogoGraphql className="text-7xl text-pink-500" />, delay: 1.7 },
