@@ -1,6 +1,6 @@
 export const englishData = {
-    experience: 'Experience > 2.5 years',
-    personalInformation: `I\`m a Frontend developer with a secondary technical education and currently pursuing higher education. I would be happy to discuss how I can contribute to your team and business development!`,
+    experience: 'Experience > 3.5 years',
+    personalInformation: `I\`m a Frontend developer with a higher technical education. I would be happy to discuss how I can contribute to your team and business development!`,
     contacts: {
         address: 'Russia, Bataysk',
         phoneNo: '+7 961 437 46 16',
@@ -27,7 +27,7 @@ export const englishData = {
             ],
         },
         {
-            year: 'October 2022 - August 2024',
+            year: 'October 2021 - August 2024',
             role: 'Junior Frontend Developer',
             company: 'UBTec',
             description: `Developing a task tracking system to organize user interaction and project management.`,
