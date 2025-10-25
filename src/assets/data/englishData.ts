@@ -1,20 +1,19 @@
 export const englishData = {
-    experience: 'Experience > 3.5 years',
-    personalInformation: `I\`m a Frontend developer with a higher technical education. I would be happy to discuss how I can contribute to your team and business development!`,
+    experience: 'Experience 4 years',
+    personalInformation: `I am a Frontend developer with 4 years of commercial experience, specializing in JavaScript (ES6+), TypeScript, Vue.js and React.`,
     contacts: {
-        address: 'Russia, Bataysk',
-        phoneNo: '+7 961 437 46 16',
+        address: 'Russia, Moscow',
+        phoneNo: '+7 (961) 437 46-16',
         email: 'bori.mix@yandex.ru'
     },
-    aboutText: `Hi! I'm a front-end developer who's been diving into the world of technology since 2018.
-                I work on projects that benefit various business areas and strive to make interfaces convenient and functional.`,
-    aboutHobby: `When I'm not coding, you can find me on the mountain slopes, in the gym, or playing the drums 
-                — I believe that an active lifestyle helps me stay focused and creative.`,
-    aboutMe:    `I value teamwork and strive to surround myself with people who share my values.
-                For me, it's not just the result that matters, but also the atmosphere in the team. Let's create something amazing together!`,
+    aboutText: `I can create complex SPA applications, optimize performance, and implement modern architectural solutions. 
+                I have experience with the full development cycle—from responsive design to backend integration via REST API and GraphQL.`,
+
+    aboutMe:    `A responsible team player with analytical thinking and a C1 level of English. 
+                 Focused on creating efficient, scalable, and user-friendly web applications.`,
     companyExperience: [
         {
-            year: 'August 2024 - Present',
+            year: 'August 2024 - September 2025',
             role: 'Middle Frontend Developer',
             company: 'STOCRM',
             description: `Development of a CRM system for auto services.`,

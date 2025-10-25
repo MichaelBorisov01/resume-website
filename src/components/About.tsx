@@ -37,9 +37,6 @@ export default function About() {
                         <p className="my-2 max-w-xl pb-1 pt-8 text-lg">{store.data.aboutText}</p>
                     </div>
                     <div className="flex justify-center lg:justify-start">
-                        <p className="my-2 max-w-xl py-1 text-lg">{store.data.aboutHobby}</p>
-                    </div>
-                    <div className="flex justify-center lg:justify-start">
                         <p className="my-2 max-w-xl py-1 text-lg">{store.data.aboutMe}</p>
                     </div>
                 </motion.div>

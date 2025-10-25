@@ -5,16 +5,16 @@ import { createSlice } from '@reduxjs/toolkit'
 
 export interface LanguageState {
     isRussian: boolean
-    data: typeof englishData
+    data: typeof russianData
 }
 
 const initialState: LanguageState = {
-    isRussian: false,
-    data: englishData
+    isRussian: true,
+    data: russianData
 }
 
 export const languageSlice = createSlice({
-    name: 'counter',
+    name: 'language',
     initialState,
     reducers: {
         toggleLanguage(state) {
@@ -25,6 +25,6 @@ export const languageSlice = createSlice({
     },
 })
 
-export const { actions, reducer } = languageSlice
+export const { actions } = languageSlice
 
 export default languageSlice.reducer
